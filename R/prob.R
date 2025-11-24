@@ -23,7 +23,7 @@ new_prob <- function(x = double()) {
 #' @export
 #' @rdname prob
 validate_prob <- function(x) {
-  stopifnot(all(is.na(x) | x >= 0 | x <= 1))
+  stopifnot(all(is.na(x) | (x >= 0 & x <= 1)))
 
   invisible(x)
 }
