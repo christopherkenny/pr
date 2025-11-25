@@ -1,4 +1,4 @@
-test_that("casting works", {
+test_that('casting works', {
   # correct class is returned
   expect_type(prob(1 / 2), 'double')
 

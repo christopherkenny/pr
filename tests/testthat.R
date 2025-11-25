@@ -9,4 +9,4 @@
 library(testthat)
 library(probable)
 
-test_check("probable")
+test_check('probable')
