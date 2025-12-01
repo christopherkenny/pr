@@ -13,7 +13,7 @@
 #' prob_mat(pr_one = p1, pr_two = p2)
 prob_mat <- function(...) {
   x <- rlang::list2(...)
-  x <- lapply(x, prob)
+  x <- lapply(x, as_prob)
   new_rcrd(
     fields = x,
     class = 'prob_mat'

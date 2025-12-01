@@ -18,12 +18,15 @@ format.prob_mat <- function(x, ...) {
     format(as_prob(field(x, y)))
   })
 
-  out <- vector('character', length = length(fmt[[1]]) + 1L)
+  out <- vector('character', length = length(fmt[[1]]))
 
   for (i in seq_along(fmt[[1]])) {
-    # print column-wise like a matrix
-    out[i + 1L] <- paste0('[', paste0(vapply(fmt, `[`, character(1), i), collapse = ','), ']')
+    out[i] <- paste0(
+      '[',
+      paste0(vapply(fmt, `[`, character(1), i), collapse = ','),
+      ']'
+    )
   }
-  out[1] <- paste0('[', paste0(f, collapse = ','), ']')
+  #out[1] <- paste0('[', paste0(f, collapse = ','), ']')
   out
 }
