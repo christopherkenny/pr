@@ -2,7 +2,7 @@
 #'
 #' A collection of `prob` vectors which sum to 1 rowwise.
 #'
-#' @param x A double vector of probabilities
+#' @param ... Named `prob` vectors or vectors coercible to `prob`
 #'
 #' @returns a `prob` vector
 #'
@@ -10,7 +10,7 @@
 #' @examples
 #' p1 <- prob(c(0.4, 2 / 3, NA_real_, 1L))
 #' p2 <- 1 - p1
-#' prob_mat(p1, p2)
+#' prob_mat(pr_one = p1, pr_two = p2)
 prob_mat <- function(...) {
   x <- rlang::list2(...)
   x <- lapply(x, prob)
