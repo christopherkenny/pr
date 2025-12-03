@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(probable)
+library(pr)
 
-test_check('probable')
+test_check('pr')

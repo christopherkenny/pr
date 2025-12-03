@@ -1,13 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# probable
+# pr
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-`probable` provides a set of probability classes built on `vctrs` and
+`pr` provides a set of probability classes built on `vctrs` and
 its `rcrd`s class. The primary offerings include:
 
 - `prob`: A probability vector class
@@ -20,12 +20,12 @@ dependency for other packages. Its only direct dependency is `vctrs`.
 
 ## Installation
 
-You can install the development version of probable from
+You can install the development version of pr from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
-pak::pak("christopherkenny/probable")
+pak::pak("christopherkenny/pr")
 ```
 
 ## Example
@@ -34,7 +34,7 @@ The primary component of the package is the `prob` class. This
 represents a vector of probabilities.
 
 ``` r
-library(probable)
+library(pr)
 prob(x = c(1 / 2, 0.4, NA, 0.875))
 #> <probability[4]>
 #> [1] 0.500 0.400 <NA>  0.875

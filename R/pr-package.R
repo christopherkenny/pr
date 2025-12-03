@@ -9,5 +9,5 @@ NULL
 #'
 #' @import vctrs
 #' @keywords internal
-#' @name probable-vctrs
+#' @name pr-vctrs
 NULL
