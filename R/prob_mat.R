@@ -14,8 +14,22 @@
 prob_mat <- function(...) {
   x <- rlang::list2(...)
   x <- lapply(x, as_prob)
-  new_rcrd(
+  out <- new_rcrd(
     fields = x,
     class = 'prob_mat'
   )
+  validate_prob_mat(out)
+  out
+}
+
+#' @export
+#' @rdname prob_mat
+validate_prob_mat <- function(x) {
+  x <- vec_data(x)
+  stopifnot(all(is.na(x) | (x >= 0 & x <= 1)))
+
+  rs <- rowSums(x)
+  stopifnot(all(is.na(rs) | rs == 1L))
+
+  invisible(x)
 }

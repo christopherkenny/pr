@@ -17,6 +17,7 @@ format.prob_mat <- function(x, ...) {
   fmt <- lapply(f, function(y) {
     format(as_prob(field(x, y)))
   })
+
   do.call(cbind, fmt) |>
     `colnames<-`(fields(x))
 }
