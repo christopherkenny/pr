@@ -1,14 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pr
+# pr <img src="man/figures/logo.png" align="right" height="138" alt="" />
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-`pr` provides a set of probability classes built on `vctrs` and
-its `rcrd`s class. The primary offerings include:
+`pr` provides a set of probability classes built on `vctrs` and its
+`rcrd`s class. The primary offerings include:
 
 - `prob`: A probability vector class
 - `prob_mat`: A `rcrd` which describes a matrix of probabilities
