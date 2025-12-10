@@ -24,8 +24,7 @@ vec_arith.numeric.prob <- function(op, x, y, ...) {
 
 #' @export
 vec_math.prob <- function(.fn, .x, ...) {
-  switch(
-    .fn,
+  switch(.fn,
     'mean' = new_prob(mean(as.double(.x), ...)),
     'abs' = new_prob(abs(as.double(.x), ...)),
     as.double(vec_math_base(.fn, .x, ...))

@@ -2,9 +2,12 @@
 % Please edit documentation in R/prob_mat.R
 \name{prob_mat}
 \alias{prob_mat}
+\alias{validate_prob_mat}
 \title{Create a probability matrix record}
 \usage{
 prob_mat(...)
+
+validate_prob_mat(x)
 }
 \arguments{
 \item{...}{Named \code{prob} vectors or vectors coercible to \code{prob}}
