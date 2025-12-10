@@ -1,8 +1,9 @@
 #' Create a probability matrix record
 #'
-#' A collection of `prob` vectors which sum to 1 rowwise.
+#' A collection of `prob` vectors which sum to 1 row-wise.
 #'
 #' @param ... Named `prob` vectors or vectors coercible to `prob`
+#' @param x A `prob_mat` for validation
 #'
 #' @returns a `prob` vector
 #'

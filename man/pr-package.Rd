@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Provides S3 classes to represent probability vectors and matrices using 'vctrs'. Allows for creation, validation, and pretty printing of each class. Includes a special probabilty matrix type with counts to allow for cases with limited possible values.
+Provides S3 classes to represent probability vectors and matrices using 'vctrs'. Allows for creation, validation, and pretty printing of each class. Includes a special probability matrix type with counts to allow for cases with limited possible values.
 }
 \author{
 \strong{Maintainer}: Christopher T. Kenny \email{ctkenny@proton.me} (\href{https://orcid.org/0000-0002-9386-6860}{ORCID})

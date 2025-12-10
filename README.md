@@ -41,8 +41,8 @@ prob(x = c(1 / 2, 0.4, NA, 0.875))
 ```
 
 It supports creating record classes for sets of probabilities which sum
-to 1 rowwise. This is implemented via `vctrs`’s `rcrd` type, which is a
-collection of same-length vectors.
+to 1 row-wise. This is implemented via the `vctrs` `rcrd` type, which is
+a collection of same-length vectors.
 
 A corresponding probability matrix can be created as follows:
 

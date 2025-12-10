@@ -3,6 +3,7 @@
 #' @param ... Named `prob` vectors or vectors coercible to `prob`
 #' @param count A positive integer vector indicating the number of cases.
 #'   Defaults to 1L recycled to the length of the probability vectors.
+#' @param x A `cnt_prob_mat` for validation
 #'
 #' @returns a `cnt_prob_mat` vector
 #'

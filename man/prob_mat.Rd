@@ -11,12 +11,14 @@ validate_prob_mat(x)
 }
 \arguments{
 \item{...}{Named \code{prob} vectors or vectors coercible to \code{prob}}
+
+\item{x}{A \code{prob_mat} for validation}
 }
 \value{
 a \code{prob} vector
 }
 \description{
-A collection of \code{prob} vectors which sum to 1 rowwise.
+A collection of \code{prob} vectors which sum to 1 row-wise.
 }
 \examples{
 p1 <- prob(c(0.4, 2 / 3, NA_real_, 1L))

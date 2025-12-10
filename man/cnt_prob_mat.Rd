@@ -14,6 +14,8 @@ validate_cnt_prob_mat(x)
 
 \item{count}{A positive integer vector indicating the number of cases.
 Defaults to 1L recycled to the length of the probability vectors.}
+
+\item{x}{A \code{cnt_prob_mat} for validation}
 }
 \value{
 a \code{cnt_prob_mat} vector
