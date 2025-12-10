@@ -15,7 +15,7 @@ format.prob_mat <- function(x, ...) {
   }
   f <- fields(x)
   fmt <- lapply(f, function(y) {
-    format(as_prob(field(x, y)))
+    format(field(x, y))
   })
 
   do.call(cbind, fmt) |>
