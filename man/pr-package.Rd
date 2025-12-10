@@ -10,6 +10,14 @@
 
 Provides S3 classes to represent probability vectors and matrices using 'vctrs'. Allows for creation, validation, and pretty printing of each class. Includes a special probability matrix type with counts to allow for cases with limited possible values.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/christopherkenny/pr}
+  \item \url{https://christophertkenny.com/pr/}
+}
+
+}
 \author{
 \strong{Maintainer}: Christopher T. Kenny \email{ctkenny@proton.me} (\href{https://orcid.org/0000-0002-9386-6860}{ORCID})
 

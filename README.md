@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/christopherkenny/pr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/pr/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `pr` provides a set of probability classes built on `vctrs` and its
