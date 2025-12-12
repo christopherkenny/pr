@@ -13,3 +13,6 @@
 - [`prob_mat()`](http://christophertkenny.com/pr/reference/prob_mat.md)
   [`validate_prob_mat()`](http://christophertkenny.com/pr/reference/prob_mat.md)
   : Create a probability matrix record
+- [`prob_mat_from_matrix()`](http://christophertkenny.com/pr/reference/prob_mat_from_matrix.md)
+  [`as.matrix(`*`<prob_mat>`*`)`](http://christophertkenny.com/pr/reference/prob_mat_from_matrix.md)
+  : Convert matrix into prob_mat
