@@ -15,6 +15,10 @@
 prob_mat <- function(...) {
   x <- rlang::list2(...)
   x <- lapply(x, as_prob)
+  new_prob_mat(x)
+}
+
+new_prob_mat <- function(x) {
   out <- new_rcrd(
     fields = x,
     class = 'prob_mat'
