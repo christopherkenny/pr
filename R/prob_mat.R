@@ -30,7 +30,7 @@ validate_prob_mat <- function(x) {
   stopifnot(all(is.na(x) | (x >= 0 & x <= 1)))
 
   rs <- rowSums(x)
-  stopifnot(all(is.na(rs) | rs == 1L))
+  stopifnot(all(is.na(rs) | abs(rs - 1L) <= 1e-6))
 
   invisible(x)
 }
